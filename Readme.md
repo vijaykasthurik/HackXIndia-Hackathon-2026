@@ -21,7 +21,7 @@
 
 ## **Prototype, Research & Demo Links**
 - **Prototype Video Link:**  
-  https://drive.google.com/file/d/1Ad-RGr1Y8l74E937Q6tImjyfTvvnYFDX/view?usp=sharing  
+  vvvv 
 
 - **Research Paper (IJIRT – 2025):**  
   Vijay Kasthuri K & Dinny Paul Navis C,  
@@ -29,10 +29,10 @@
   https://ijirt.org/article?manuscript=183371  
 
 - **Animated Video Link:**  
-  _To be updated_
+  https://drive.google.com/file/d/1OJanNLQ9C0KKU4xAk8a9R8U4KafEWdQX/view
 
 - **PPT Link:**  
-  _To be updated_
+  https://drive.google.com/file/d/1udO8kLZXntZvyXuzG0ZdmWgCeOto_RBN/view?usp=drive_link
 
 ---
 

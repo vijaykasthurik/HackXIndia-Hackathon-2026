@@ -1,7 +1,8 @@
 # **Growlify – An AI-Powered Urban Farming System**
 
 ## **Team Name**
-**Green Sync Innovators**
+**Green Sync Innovators**  
+**PSNA College of Engineering and Technology, Tamil Nadu**
 
 ---
 
@@ -18,9 +19,14 @@
 
 ---
 
-## **Prototype & Demo Links**
+## **Prototype, Research & Demo Links**
 - **Prototype Video Link:**  
   https://drive.google.com/file/d/1Ad-RGr1Y8l74E937Q6tImjyfTvvnYFDX/view?usp=sharing  
+
+- **Research Paper (IJIRT – 2025):**  
+  Vijay Kasthuri K & Dinny Paul Navis C,  
+  *“Growlify: An AI-Powered Urban Farming System”*  
+  https://ijirt.org/article?manuscript=183371  
 
 - **Animated Video Link:**  
   _To be updated_
@@ -30,58 +36,70 @@
 
 ---
 
-# **Index**
-1. Overview  
-2. Problem Statement  
-3. Proposed Solution  
-4. Tech Stack  
-5. Architecture  
-6. Functional Requirements  
-7. Non-Functional Requirements  
-8. Hardware & Software Components  
-9. Cost Analysis  
-10. Repository Layout  
-11. Installation and Setup  
-12. Usage  
-13. System Design and Request Flow  
-14. Impact and Benefits  
-15. Future Features  
-16. Contributing  
-17. License  
-18. Acknowledgements  
-
----
-
 ## **Overview**
-**Growlify** is an AI-powered urban farming system designed for modern city dwellers with limited space and time. It simplifies plant care using **AI-based disease detection, weather-aware smart irrigation, personalized reminders, and organic care guidance**.
+**Growlify** is an AI + IoT-powered urban farming system designed for city environments where space, air quality, and time are limited.  
+It enables **smart plant care through deep learning–based disease detection, weather-aware irrigation, automated reminders, and organic farming guidance**.
 
-Growlify acts as a **personal plant guardian**, helping users grow healthy plants sustainably on balconies and small urban spaces.
+Growlify works as a **personal plant guardian**, especially for balconies and small urban homes.
 
 ---
 
 ## **Problem Statement**
-Urban residents often struggle with:
-- Limited space for gardening  
-- Lack of plant care knowledge  
-- Unpredictable weather conditions  
-- Plant diseases and irregular watering  
+Rapid urbanization in India has led to:
+- Severe **air pollution** in cities like **Delhi, Uttar Pradesh regions, Bengaluru, and Chennai**
+- Reduced green cover and increasing **carbon footprint**
+- Limited access to clean, self-grown food
+- Lack of gardening knowledge among urban residents
 
-These challenges discourage people from home gardening, despite its benefits for sustainability and mental well-being.
+Despite awareness, many people avoid home gardening due to:
+- Unpredictable weather
+- Plant diseases
+- Irregular watering
+- Busy lifestyles
+
+This directly impacts **environmental sustainability, mental well-being, and urban air quality**.
+
+---
+
+## **Why Open Innovation (Open Bharat Track)**
+Growlify aligns with **Open Innovation – Open Bharat** because:
+
+- 🌍 India is facing **critical environmental challenges** due to pollution and urban congestion  
+- 🌱 Promotes **decentralized green growth** at household level  
+- 🏙️ Encourages citizens to convert balconies into **micro green zones**  
+- ♻️ Supports **sustainable living, water optimization, and organic practices**  
+- 🇮🇳 Empowers India’s vision of **self-reliant, eco-conscious urban communities**
+
+Growlify is not just a product — it is a **citizen-driven environmental movement**.
 
 ---
 
 ## **Proposed Solution**
-Growlify addresses these issues through:
-- 🌱 **Smart Onboarding & Personalization** using PIN-code-based weather detection  
-- 🌱 **AI-Driven Plant Disease Diagnosis** via leaf image upload  
-- 🌱 **Automated Smart Reminders** adjusted for local climate and rainfall  
-- 🌱 **Organic Care Tips & E-Commerce Integration**  
-- 🌱 **Smart Irrigation System** using IoT-enabled devices  
-- 🌱 **All-in-One Urban Farming Ecosystem** with community, streaks, and rewards  
+Growlify provides an end-to-end solution with:
+
+- 🌱 **Smart Onboarding & Localization**  
+  PIN-code-based weather detection for plant-specific care
+
+- 🌱 **AI-Driven Plant Disease Diagnosis**  
+  Upload leaf images to detect diseases and get treatment suggestions
+
+- 🌱 **Deep Learning CNN Model (Python)**  
+  Trained on **50,000+ plant leaf images**  
+  Achieved **98.5% accuracy** using CNN architecture
+
+- 🌱 **Automated Smart Reminders**  
+  Email alerts for watering and treatment, dynamically adjusted to rainfall
+
+- 🌱 **Organic Care Tips & Eco Store**  
+  Eggshell compost, banana peel water, neem oil suggestions
+
+- 🌱 **IoT Smart Irrigation with Fail-Safe Logic**  
+  If **electricity or Wi-Fi is OFF**, the system automatically releases a **minimum safe amount of water every 2 days** to prevent plant death
 
 ---
 
 ## **Tech Stack**
+
 ### **Frontend**
 - React.js  
 
@@ -89,46 +107,57 @@ Growlify addresses these issues through:
 - Node.js  
 - Express.js  
 
+### **AI & APIs**
+- **Python (Deep Learning & AI)**  
+- **CNN Model for Plant Disease Detection**  
+  - Dataset: 50,000+ images  
+  - Accuracy: **98.5%**
+- Flask (AI API Server)
+- OpenWeather API (Real-time weather & rainfall)
+
 ### **Database**
 - MongoDB  
 
-### **AI & APIs**
-- Machine Learning (Plant Disease Detection)  
-- OpenWeather API  
+### **Why This Tech Stack?**
+- **React** → Fast, scalable UI for users  
+- **Node & Express** → Real-time IoT + API handling  
+- **Python & CNN** → High-accuracy plant disease detection  
+- **MongoDB** → Flexible plant & user data storage  
+- **OpenWeather API** → Weather-aware irrigation decisions  
 
 ---
 
 ## **Architecture**
-Growlify follows a modular and scalable architecture:
-- **Frontend** handles user interaction and visualization  
-- **Backend APIs** manage plant data, reminders, and automation  
-- **AI Models** analyze leaf images and plant health  
-- **IoT Layer** controls irrigation based on real-time conditions  
-- **Cloud Services** store data and manage notifications  
+- **Frontend** → User interaction & dashboard  
+- **Backend APIs** → Logic, reminders, automation  
+- **AI Layer (Python + CNN)** → Disease detection  
+- **IoT Layer (ESP32)** → Smart irrigation & sensors  
+- **Cloud Services** → Notifications & storage  
 
 ---
 
 ## **Functional Requirements**
-- User registration and plant onboarding  
-- Weather-aware watering recommendations  
-- Leaf image upload for disease detection  
-- Personalized daily reminders  
-- Smart irrigation control  
-- Organic care suggestions  
-- Community interaction and progress tracking  
+- User registration & plant onboarding  
+- Leaf image upload & disease detection  
+- Weather-based watering logic  
+- Smart irrigation automation  
+- Power-failure water backup logic  
+- Email reminders & alerts  
+- Community engagement & streak tracking  
 
 ---
 
 ## **Non-Functional Requirements**
-- Scalability for multiple users  
+- Scalable architecture  
 - Secure data handling  
-- Low-cost and energy-efficient hardware  
-- Reliable real-time alerts  
-- Easy-to-use UI for non-technical users  
+- Low-cost & energy-efficient hardware  
+- Reliable automation even during power issues  
+- Easy UI for non-technical users  
 
 ---
 
 ## **Hardware & Software Components**
+
 ### **Hardware**
 - ESP32  
 - RTC Module  
@@ -141,17 +170,34 @@ Growlify follows a modular and scalable architecture:
 - Node JS  
 - Express JS  
 - MongoDB  
+- Python (AI & Deep Learning)  
+- Flask  
 - OpenWeather API  
 
 ---
 
 ## **Cost Analysis**
 - **Hardware Cost:** ₹3,500 per prototype  
-- **Software & Hosting:** ₹65,000 (including annual maintenance)  
-- **Total Project Cost:** ₹70,000  
+- **Software & Hosting:** ₹65,000  
+- **Total Project Cost:** **₹70,000**
 
-🟢 *Growlify offers a cost-effective and scalable smart farming solution compared to commercial systems.*
+🟢 Affordable, scalable, and suitable for Indian households.
 
 ---
 
-## **Repository Layout**
+## How to Run the Project
+
+### 1. Frontend (React)
+```bash
+cd my-app
+npm start
+
+2. Backend (Node.js + Express)
+```bash
+cd my-app/backend
+node index.js
+
+3. Deep Learning / AI (Python + CNN using Flask)
+```bash
+cd FLASK-BACKEND
+python app.py

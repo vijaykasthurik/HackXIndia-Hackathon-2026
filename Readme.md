@@ -21,7 +21,7 @@
 
 ## **Prototype, Research & Demo Links**
 - **Prototype Video Link:**  
-  vvvv 
+  https://drive.google.com/file/d/1Hp_v-phkXRLtPr-BOSJ4gmzkLMY-i6Ih/view?usp=sharing
 
 - **Research Paper (IJIRT – 2025):**  
   Vijay Kasthuri K & Dinny Paul Navis C,  

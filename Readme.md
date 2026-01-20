@@ -192,12 +192,12 @@ Growlify provides an end-to-end solution with:
 cd my-app
 npm start
 
-2. Backend (Node.js + Express)
-```bash
+ 2. Backend (Node.js + Express)
+
 cd my-app/backend
 node index.js
 
-3. Deep Learning / AI (Python + CNN using Flask)
-```bash
+ 3. Deep Learning / AI (Python + CNN using Flask)
+
 cd FLASK-BACKEND
 python app.py

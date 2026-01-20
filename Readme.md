@@ -186,7 +186,29 @@ Growlify provides an end-to-end solution with:
 ---
 
 ## How to Run the Project
+Install React app 
+npx create-react-app my-app
 
+Install all the packages 
+ npm install 
+react@18.2.0 react-dom@18.2.0 react-scripts@5.0.1 
+react-router-dom@7.6.2 
+@testing-library/react@16.3.0 
+@testing-library/dom@10.4.0 
+@testing-library/jest-dom@6.6.3 
+@testing-library/user-event@13.5.0 
+@lottiefiles/lottie-player@2.0.12 
+aos@2.3.4 axios@1.10.0 bcryptjs@3.0.2 
+bootstrap@5.3.7 cors@2.8.5 dotenv@17.2.0 
+framer-motion@12.23.24 jsonwebtoken@9.0.2 
+lottie-react@2.4.1 lucide-react@0.525.0 
+mongoose@8.16.3 node-cron@4.2.1 
+nodemailer@7.0.5 otp-generator@4.0.1 
+pdf-creator-node@2.3.5 razorpay@2.9.6 
+react-bootstrap-icons@1.11.6 
+web-vitals@2.1.4 winston@3.17.0 
+--legacy-peer-deps
+npm install -D vite@6.3.5
 ### 1. Frontend (React)
 ```bash
 cd my-app

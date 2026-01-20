@@ -1,0 +1,9 @@
+[2025-07-27 11:09:30] [INFO]: ✅ MongoDB connected successfully
+[2025-07-27 11:09:30] [INFO]: 🌿 Growlify backend running on http://localhost:5000
+[2025-07-27 11:09:31] [INFO]: MongoDB connected successfully
+[2025-07-27 11:12:29] [INFO]: ✅ Email sent successfully to vijaykasthuri777@gmail.com
+[2025-07-27 11:12:29] [INFO]: [OTP] Sent signup OTP to vijaykasthuri777@gmail.com
+[2025-07-27 11:13:01] [INFO]: [SIGNUP] New user registered: vijaykasthuri777@gmail.com
+[2025-07-27 11:13:09] [INFO]: [LOGIN] User logged in: vijaykasthuri777@gmail.com
+[2025-07-27 12:00:00] [INFO]: [NODE-CRON] Running watering reminder at 12:00 (Outdoor)
+[2025-07-27 12:00:00] [INFO]: [NODE-CRON] Running watering reminder job for location: Outdoor
